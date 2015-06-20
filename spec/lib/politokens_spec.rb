@@ -4,7 +4,7 @@ describe Politokens do
   it "generates a name like still-silence-5012" do
     name = Politokens.politoke
 
-    expect(name).to match(/\A\w+-\w+-\d{1,4}\z/)
+    expect(name).to match(/\A\w+-+\w+-+\d{1,4}\z/)
   end
 
   it "won't return the same name for subsequent calls" do
