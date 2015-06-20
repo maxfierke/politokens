@@ -25,19 +25,19 @@ Or install it yourself as:
 Politokens is pretty simple. There is nothing to configure and it only has a single method, `.politoke`:
 
 ```ruby
-Politokens.politoke # => "rough-snowflake-1142"
+Politokens.politoke # => "courteous-honduras-4520"
 
 # Token range
-Politokens.politoke(100) # => "nameless-star-13"
+Politokens.politoke(100) # => "warmhearted-slovenia-93"
 
 # Don't include the token
-Politokens.politoke(0) # => "long-flower"
+Politokens.politoke(0) # => "forceful-denmark"
 
 # Use a different delimiter
-Politokens.politoke(9999, '.') # => "cool.leaf.6743"
+Politokens.politoke(9999, '.') # => "courageous.laos.7447"
 
 # No token, no delimiter
-Politokens.politoke(0, ' ') # => "green fire"
+Politokens.politoke(0, ' ') # => "thoughtful ghana"
 ```
 
 ## Contributing
