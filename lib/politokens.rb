@@ -55,7 +55,7 @@ module Politokens
 
     def nouns
       %w(
-        afghanistan åland-islands albania algeria american-samoa
+        afghanistan aland-islands albania algeria american-samoa
         andorra angola anguilla antarctica antigua-and-barbuda
         argentina armenia aruba australia austria azerbaijan bahamas
         bahrain bangladesh barbados belarus belgium belize benin
