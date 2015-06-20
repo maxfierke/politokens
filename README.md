@@ -1,16 +1,16 @@
-# Haikunator
+# Politokens
 
-[![Gem Version](https://badge.fury.io/rb/haikunator.svg)](http://badge.fury.io/rb/haikunator)
-[![Build Status](https://travis-ci.org/usmanbashir/haikunator.svg?branch=master)](https://travis-ci.org/usmanbashir/haikunator)
-[![Coverage Status](https://coveralls.io/repos/usmanbashir/haikunator/badge.svg)](https://coveralls.io/r/usmanbashir/haikunator)
+[![Gem Version](https://badge.fury.io/rb/politokens.svg)](http://badge.fury.io/rb/politokens)
+[![Build Status](https://travis-ci.org/maxfierke/politokens.svg?branch=master)](https://travis-ci.org/maxfierke/politokens)
+[![Coverage Status](https://coveralls.io/repos/maxfierke/politokens/badge.svg)](https://coveralls.io/r/maxfierke/politokens)
 
-Generate Heroku-like memorable random names to use in your apps or anywhere else.
+Generate Heroku-like memorable random names to use in your apps or anywhere else, but with a geopolitical twist. Fork of [Haikunator](https://github.com/usmanbashir/haikunator)
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'haikunator'
+    gem 'politokens'
 
 And then execute:
 
@@ -18,41 +18,41 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install haikunator
+    $ gem install politokens
 
 ## Usage
 
-Haikunator is pretty simple. There is nothing to configure and it only has a single method, `.haikunate`:
+Politokens is pretty simple. There is nothing to configure and it only has a single method, `.politoke`:
 
 ```ruby
-Haikunator.haikunate # => "rough-snowflake-1142"
+Politokens.politoke # => "rough-snowflake-1142"
 
 # Token range
-Haikunator.haikunate(100) # => "nameless-star-13"
+Politokens.politoke(100) # => "nameless-star-13"
 
 # Don't include the token
-Haikunator.haikunate(0) # => "long-flower"
+Politokens.politoke(0) # => "long-flower"
 
 # Use a different delimiter
-Haikunator.haikunate(9999, '.') # => "cool.leaf.6743"
+Politokens.politoke(9999, '.') # => "cool.leaf.6743"
 
 # No token, no delimiter
-Haikunator.haikunate(0, ' ') # => "green fire"
+Politokens.politoke(0, ' ') # => "green fire"
 ```
 
 ## Contributing
 
 Everyone is encouraged to help improve this project. Here are a few ways you can help:
 
-- [Report bugs](https://github.com/usmanbashir/haikunator/issues)
-- Fix bugs and [submit pull requests](https://github.com/usmanbashir/haikunator/pulls)
+- [Report bugs](https://github.com/maxfierke/politokens/issues)
+- Fix bugs and [submit pull requests](https://github.com/maxfierke/politokens/pulls)
 - Write, clarify, or fix documentation
 - Suggest or add new features
 
 ## Other Languages
 
-Haikunator is also available in other languages. Check them out:
+Politokens is also available in other languages. Check them out:
 
-- Node: https://github.com/AtroxDev/haikunatorjs
-- Python: https://github.com/AtroxDev/haikunator
-- Go: https://github.com/yelinaung/go-haikunator
+- Node: https://github.com/AtroxDev/politokensjs
+- Python: https://github.com/AtroxDev/politokens
+- Go: https://github.com/yelinaung/go-politokens
